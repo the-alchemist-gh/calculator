@@ -9,73 +9,72 @@
 </head>
 <body>
   <main>
-    <section id="display-text">
-      <div>
-        <h1>1232</h1>
-      </div>
-    </section>
-    <div class="text-field" id="text-field">
-      <div class="btn top-btn" id="clear">
-        <h2>AC</h2>
-      </div>
-      <div class="btn top-btn" id="plus-minus">
-        <h2>+/-</h2>
-      </div>
-      <div class="btn top-btn">
-        <h2>%</h2>
-      </div>
-      <div class="btn operator-btn" id="divide">
-        <h2>/</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>7</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>8</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>9</h2>
-      </div>
-      <div class="btn operator-btn">
-        <h2>x</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>4</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>5</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>6</h2>
-      </div>
-      <div class="btn operator-btn">
-        <h1>-</h1>
-      </div>
-      <div class="btn num-btn">
-        <h2>1</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>2</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>3</h2>
-      </div>
-      <div class="btn operator-btn">
-        <h1>+</h1>
-      </div>
-      <div class="btn" id="dark-mode">
-        <h2>?</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>0</h2>
-      </div>
-      <div class="btn num-btn">
-        <h2>.</h2>
-      </div>
-      <div class="btn operator-btn">
-        <h1>=</h1>
+    <div class="container">
+      <div class="text-field" id="text-field">
+        <div id="display">
+          <h1 id="previous-text"></h1>
+          <h1 id="current-text"></h1>
+        </div>
+        <div class="btn top-btn" id="clear">
+          <h2>AC</h2>
+        </div>
+        <div class="btn top-btn" id="plus-minus">
+          <h2>+/-</h2>
+        </div>
+        <div class="btn top-btn" id="percent">
+          <h2>%</h2>
+        </div>
+        <div class="btn operator-btn" id="divide">
+          <h2>÷</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>7</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>8</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>9</h2>
+        </div>
+        <div class="btn operator-btn">
+          <h2>x</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>4</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>5</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>6</h2>
+        </div>
+        <div class="btn operator-btn">
+          <h1>-</h1>
+        </div>
+        <div class="btn num-btn">
+          <h2>1</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>2</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>3</h2>
+        </div>
+        <div class="btn operator-btn">
+          <h1>+</h1>
+        </div>
+        <div class="span-two btn num-btn">
+          <h2>0</h2>
+        </div>
+        <div class="btn num-btn">
+          <h2>.</h2>
+        </div>
+        <div class="btn" id="equal-btn">
+          <h1>=</h1>
+        </div>
       </div>
     </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
